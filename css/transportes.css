@@ -93,6 +93,7 @@ h2{
     font-weight: bold;
     font-size: 20px;
     display: flex;
+    font-style: italic;
 }
 
 .testimonio .autor{
@@ -100,4 +101,57 @@ h2{
     margin: 16px 0;
     display: flex;
     justify-content: center;
+}
+
+
+/*FIN DE HOME*/
+
+/*INICIO NOSOTROS*/
+
+.historia p{
+    font-size: 13px;
+    
+}
+
+.personas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.persona{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 15px 10px;
+    box-sizing: border-box;
+}
+
+.persona img{
+    border-radius: 50%;
+    width: 40%;
+    box-shadow: 0 0 2px black;
+}
+
+.persona h5,
+.perosna h6{
+    margin:0;
+    color:#2e64a1;
+    font-weight: normal;
+}
+
+.persona h5{
+    font-size: 14px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.persona h6{
+    font-style: italic;
+    margin:5px;
+}
+
+.persona p{
+    font-size: 11px;
+    text-align: left;
 }
