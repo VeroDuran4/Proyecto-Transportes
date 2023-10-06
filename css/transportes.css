@@ -162,7 +162,7 @@ h2{
 
 .contacto{
     display: flex;
-    gap: 24px;
+    gap: 94px;
 }
 
 .contacto div{
@@ -178,16 +178,45 @@ h2{
     list-style: none;
 }
 
-.formulario p{
+/*.formulario p{
     display: flex;
-}
+}*/
 
 .formulario p input,
 .formulario p textarea{
-    width: 70%;
+    width: 100%;
+    background-color: #ddd;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 6px 10px;
 }
 
 .formulario p label{
-    width: 80px;
-    /*display: block;*/
+    min-width: 80px;
+    display: block;
 }
+
+.formulario textarea{
+    height: 150px;
+    resize: none;
+}
+
+.formulario input[type="submit"]{
+    background-color: #6da9ed;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+    padding: 6px;
+    width: auto;
+    cursor: pointer;
+    margin-left: 3px;
+    transition: all 0.8s ease;
+}
+
+.formulario input[type="submit"]:hover{
+    background-color: #2e64a1;
+}
+
+/*FIN DE CONTACTO*/
+
